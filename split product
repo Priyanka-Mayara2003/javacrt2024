@@ -1,0 +1,31 @@
+import java.util.*;
+class Split_Prod
+{
+public static void main(String args[])
+{
+  Scanner s=new Scanner(System.in);
+  int n=s.nextInt();
+int a[]=new int[n];
+for(int i=0;i<n;i++)
+{
+  a[i]=s.nextInt();
+}
+int k=s.nextint();
+{
+res=1;
+for(int j=1;j<n;j++)
+{
+res=res*a[i];
+if(res==k)
+{
+System.out.print("yes");
+return;
+}
+}
+if(i==n)
+System.out.print("no");
+}
+}
+}
+
+
