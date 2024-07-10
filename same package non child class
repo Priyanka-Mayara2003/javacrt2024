@@ -11,3 +11,9 @@ System.out.println("c="+f1.c);
 System.out.println("d="+f1.d);
 }
 }
+public static void main(String args[])
+{
+Third f1=new Fourth();
+f1.show3();
+}
+}
